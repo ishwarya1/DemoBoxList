@@ -1,6 +1,6 @@
 package sg.edu.rp.soi.demoboxlist;
 
-public class Colour {
+public class Box {
 
 
 
@@ -8,7 +8,7 @@ public class Colour {
 
 
 
-    public Colour(String color) {
+    public Box(String color) {
 
         this.color = color;
 

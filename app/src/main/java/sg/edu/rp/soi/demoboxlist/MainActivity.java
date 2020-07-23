@@ -2,7 +2,6 @@ package sg.edu.rp.soi.demoboxlist;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.graphics.Color;
 import android.os.Bundle;
 import android.widget.ListView;
 
@@ -11,7 +10,7 @@ import java.util.ArrayList;
 public class MainActivity extends AppCompatActivity {
 
     ListView lvColor;
-    ArrayList<Colour>alColor;
+    ArrayList<Box>alColor;
     CustomerAdapter caColor;
 
     @Override
@@ -21,11 +20,11 @@ public class MainActivity extends AppCompatActivity {
 
         lvColor = findViewById(R.id.ListViewApp);
         alColor = new ArrayList<>();
-        Colour item1 = new Colour("blue_box");
+        Box item1 = new Box("blue_box");
         alColor.add(item1);
-        Colour item2 = new Colour("orange_box");
+        Box item2 = new Box("orange_box");
         alColor.add(item2);
-        Colour item3 = new Colour("brown_box");
+        Box item3 = new Box("brown_box");
         alColor.add(item3);
 
 
